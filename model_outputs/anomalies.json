@@ -1,0 +1,192 @@
+[
+    {
+        "timestamp": "2025-01-26 19:04:00",
+        "event": "CPU usage",
+        "value": 37
+    },
+    {
+        "timestamp": "2025-01-26 19:31:00",
+        "event": "CPU usage",
+        "value": 56
+    },
+    {
+        "timestamp": "2025-01-26 19:43:00",
+        "event": "Disk usage",
+        "value": 88
+    },
+    {
+        "timestamp": "2025-01-26 21:23:00",
+        "event": "Disk usage",
+        "value": 89
+    },
+    {
+        "timestamp": "2025-01-26 21:31:00",
+        "event": "Disk usage",
+        "value": 36
+    },
+    {
+        "timestamp": "2025-01-26 21:36:00",
+        "event": "CPU usage",
+        "value": 88
+    },
+    {
+        "timestamp": "2025-01-26 23:00:00",
+        "event": "Disk usage",
+        "value": 94
+    },
+    {
+        "timestamp": "2025-01-26 23:29:00",
+        "event": "Disk usage",
+        "value": 74
+    },
+    {
+        "timestamp": "2025-01-26 23:37:00",
+        "event": "CPU usage",
+        "value": 44
+    },
+    {
+        "timestamp": "2025-01-27 01:16:00",
+        "event": "CPU usage",
+        "value": 61
+    },
+    {
+        "timestamp": "2025-01-27 01:50:00",
+        "event": "CPU usage",
+        "value": 34
+    },
+    {
+        "timestamp": "2025-01-27 02:34:00",
+        "event": "CPU usage",
+        "value": 70
+    },
+    {
+        "timestamp": "2025-01-27 03:53:00",
+        "event": "CPU usage",
+        "value": 20
+    },
+    {
+        "timestamp": "2025-01-27 05:00:00",
+        "event": "CPU usage",
+        "value": 27
+    },
+    {
+        "timestamp": "2025-01-27 06:27:00",
+        "event": "Disk usage",
+        "value": 35
+    },
+    {
+        "timestamp": "2025-01-27 07:18:00",
+        "event": "Disk usage",
+        "value": 67
+    },
+    {
+        "timestamp": "2025-01-27 07:50:00",
+        "event": "CPU usage",
+        "value": 15
+    },
+    {
+        "timestamp": "2025-01-27 08:30:00",
+        "event": "CPU usage",
+        "value": 57
+    },
+    {
+        "timestamp": "2025-01-27 08:38:00",
+        "event": "CPU usage",
+        "value": 77
+    },
+    {
+        "timestamp": "2025-01-27 09:29:00",
+        "event": "CPU usage",
+        "value": 84
+    },
+    {
+        "timestamp": "2025-01-27 09:53:00",
+        "event": "Disk usage",
+        "value": 60
+    },
+    {
+        "timestamp": "2025-01-27 11:39:00",
+        "event": "Disk usage",
+        "value": 35
+    },
+    {
+        "timestamp": "2025-01-27 12:07:00",
+        "event": "Disk usage",
+        "value": 93
+    },
+    {
+        "timestamp": "2025-01-27 13:09:00",
+        "event": "CPU usage",
+        "value": 74
+    },
+    {
+        "timestamp": "2025-01-27 13:56:00",
+        "event": "CPU usage",
+        "value": 61
+    },
+    {
+        "timestamp": "2025-01-27 14:03:00",
+        "event": "CPU usage",
+        "value": 75
+    },
+    {
+        "timestamp": "2025-01-27 14:27:00",
+        "event": "CPU usage",
+        "value": 14
+    },
+    {
+        "timestamp": "2025-01-27 15:00:00",
+        "event": "CPU usage",
+        "value": 86
+    },
+    {
+        "timestamp": "2025-01-27 15:39:00",
+        "event": "CPU usage",
+        "value": 74
+    },
+    {
+        "timestamp": "2025-01-27 15:59:00",
+        "event": "Disk usage",
+        "value": 72
+    },
+    {
+        "timestamp": "2025-01-27 17:35:00",
+        "event": "CPU usage",
+        "value": 81
+    },
+    {
+        "timestamp": "2025-01-27 17:40:00",
+        "event": "Disk usage",
+        "value": 88
+    },
+    {
+        "timestamp": "2025-01-27 18:06:00",
+        "event": "CPU usage",
+        "value": 31
+    },
+    {
+        "timestamp": "2025-01-27 18:30:00",
+        "event": "Disk usage",
+        "value": 39
+    },
+    {
+        "timestamp": "2025-01-27 18:38:00",
+        "event": "Disk usage",
+        "value": 81
+    },
+    {
+        "timestamp": "2025-01-27 18:50:00",
+        "event": "CPU usage",
+        "value": 66
+    },
+    {
+        "timestamp": "2025-01-26 19:05:50.648127",
+        "event": "Service failures",
+        "value": 0
+    },
+    {
+        "timestamp": "2025-01-26 19:05:50.648376",
+        "event": "ETL failures",
+        "value": 0
+    }
+]

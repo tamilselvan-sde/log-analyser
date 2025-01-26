@@ -1,0 +1,304 @@
+{
+    "issues": [
+        {
+            "timestamp": "2025-01-26 19:31:00",
+            "root_cause": "CPU usage",
+            "value": 56,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-26 19:31:00",
+            "root_cause": "Critical CPU usage",
+            "value": 56,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-26 19:43:00",
+            "root_cause": "Disk usage",
+            "value": 88,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-26 19:43:00",
+            "root_cause": "Critical Disk usage",
+            "value": 88,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-26 21:23:00",
+            "root_cause": "Disk usage",
+            "value": 89,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-26 21:23:00",
+            "root_cause": "Critical Disk usage",
+            "value": 89,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-26 21:36:00",
+            "root_cause": "CPU usage",
+            "value": 88,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-26 21:36:00",
+            "root_cause": "Critical CPU usage",
+            "value": 88,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-26 23:00:00",
+            "root_cause": "Disk usage",
+            "value": 94,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-26 23:00:00",
+            "root_cause": "Critical Disk usage",
+            "value": 94,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-26 23:29:00",
+            "root_cause": "Disk usage",
+            "value": 74,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-26 23:29:00",
+            "root_cause": "Critical Disk usage",
+            "value": 74,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-26 23:37:00",
+            "root_cause": "CPU usage",
+            "value": 44,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-26 23:37:00",
+            "root_cause": "Critical CPU usage",
+            "value": 44,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 01:16:00",
+            "root_cause": "CPU usage",
+            "value": 61,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 01:16:00",
+            "root_cause": "Critical CPU usage",
+            "value": 61,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 02:34:00",
+            "root_cause": "CPU usage",
+            "value": 70,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 02:34:00",
+            "root_cause": "Critical CPU usage",
+            "value": 70,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 07:18:00",
+            "root_cause": "Disk usage",
+            "value": 67,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-27 07:18:00",
+            "root_cause": "Critical Disk usage",
+            "value": 67,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-27 08:30:00",
+            "root_cause": "CPU usage",
+            "value": 57,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 08:30:00",
+            "root_cause": "Critical CPU usage",
+            "value": 57,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 08:38:00",
+            "root_cause": "CPU usage",
+            "value": 77,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 08:38:00",
+            "root_cause": "Critical CPU usage",
+            "value": 77,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 09:29:00",
+            "root_cause": "CPU usage",
+            "value": 84,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 09:29:00",
+            "root_cause": "Critical CPU usage",
+            "value": 84,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 09:53:00",
+            "root_cause": "Disk usage",
+            "value": 60,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-27 09:53:00",
+            "root_cause": "Critical Disk usage",
+            "value": 60,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-27 12:07:00",
+            "root_cause": "Disk usage",
+            "value": 93,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-27 12:07:00",
+            "root_cause": "Critical Disk usage",
+            "value": 93,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-27 13:09:00",
+            "root_cause": "CPU usage",
+            "value": 74,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 13:09:00",
+            "root_cause": "Critical CPU usage",
+            "value": 74,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 13:56:00",
+            "root_cause": "CPU usage",
+            "value": 61,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 13:56:00",
+            "root_cause": "Critical CPU usage",
+            "value": 61,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 14:03:00",
+            "root_cause": "CPU usage",
+            "value": 75,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 14:03:00",
+            "root_cause": "Critical CPU usage",
+            "value": 75,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 15:00:00",
+            "root_cause": "CPU usage",
+            "value": 86,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 15:00:00",
+            "root_cause": "Critical CPU usage",
+            "value": 86,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 15:39:00",
+            "root_cause": "CPU usage",
+            "value": 74,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 15:39:00",
+            "root_cause": "Critical CPU usage",
+            "value": 74,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 15:59:00",
+            "root_cause": "Disk usage",
+            "value": 72,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-27 15:59:00",
+            "root_cause": "Critical Disk usage",
+            "value": 72,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-27 17:35:00",
+            "root_cause": "CPU usage",
+            "value": 81,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 17:35:00",
+            "root_cause": "Critical CPU usage",
+            "value": 81,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 17:40:00",
+            "root_cause": "Disk usage",
+            "value": 88,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-27 17:40:00",
+            "root_cause": "Critical Disk usage",
+            "value": 88,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-27 18:38:00",
+            "root_cause": "Disk usage",
+            "value": 81,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-27 18:38:00",
+            "root_cause": "Critical Disk usage",
+            "value": 81,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2025-01-27 18:50:00",
+            "root_cause": "CPU usage",
+            "value": 66,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2025-01-27 18:50:00",
+            "root_cause": "Critical CPU usage",
+            "value": 66,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        }
+    ]
+}

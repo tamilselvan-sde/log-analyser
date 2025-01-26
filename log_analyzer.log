@@ -1,0 +1,753 @@
+2024-11-18 01:57:14,596 - INFO - Starting log analysis
+2024-11-18 01:57:14,597 - INFO - Log file path: /log_analyser/logs_data/data_logs.txt
+2024-11-18 01:57:14,597 - INFO - Initializing LogParser
+2024-11-18 01:57:14,597 - INFO - Parsing the log file
+2024-11-18 01:57:14,599 - INFO - Parsed logs successfully
+2024-11-18 01:57:14,604 - INFO - Initializing SentimentAnalysis
+2024-11-18 01:57:16,783 - INFO - Analyzing sentiment of log messages
+2024-11-18 01:57:18,736 - INFO - Sentiment analysis completed
+2024-11-18 01:57:18,741 - INFO - Initializing SensitiveDataParser
+2024-11-18 01:57:18,741 - INFO - Parsing sensitive data
+2024-11-18 01:57:18,742 - INFO - Sensitive data parsing completed
+2024-11-18 01:57:18,742 - INFO - Initializing KeywordClustering
+2024-11-18 01:57:18,742 - INFO - Clustering messages into categories
+2024-11-18 01:57:18,742 - INFO - Keyword clustering completed
+2024-11-18 01:57:18,745 - INFO - Initializing AnomalyPrediction
+2024-11-18 01:57:18,745 - INFO - Extracting anomalies from log messages
+2024-11-18 01:57:18,747 - INFO - Anomaly prediction completed
+2024-11-18 01:57:18,747 - INFO - Initializing RootCauseAnalysis
+2024-11-18 01:57:18,747 - INFO - Analyzing root causes
+2024-11-18 01:57:18,747 - INFO - Root cause analysis completed
+2024-11-18 01:57:18,747 - INFO - Initializing ThresholdAlert
+2024-11-18 01:57:18,747 - INFO - Analyzing thresholds for alerts
+2024-11-18 01:57:18,747 - INFO - Threshold alert analysis completed
+2024-11-18 01:57:18,748 - INFO - Initializing DBSCANClustering
+2024-11-18 01:57:18,748 - INFO - Clustering log messages using DBSCAN
+2024-11-18 01:57:18,755 - INFO - DBSCAN clustering completed
+2024-11-18 01:57:18,757 - INFO - Grouping logs by DBSCAN clusters
+2024-11-18 01:57:18,761 - INFO - Initializing HDBSCANClustering
+2024-11-18 01:57:18,761 - INFO - Clustering log messages using HDBSCAN
+2024-11-18 01:57:18,771 - INFO - HDBSCAN clustering completed
+2024-11-18 01:57:18,775 - INFO - Log analysis completed successfully
+2024-11-18 12:47:01,292 - INFO - Starting log analysis
+2024-11-18 12:47:01,292 - INFO - Log file path: /log_analyser/logs_data/data_logs.txt
+2024-11-18 12:47:01,292 - INFO - Initializing LogParser
+2024-11-18 12:47:01,293 - INFO - Parsing the log file
+2024-11-18 12:47:01,296 - INFO - Parsed logs successfully
+2024-11-18 12:47:01,307 - INFO - Initializing SentimentAnalysis
+2024-11-18 12:47:01,880 - INFO - Analyzing sentiment of log messages
+2024-11-18 12:48:37,590 - INFO - Starting log analysis
+2024-11-18 12:48:37,590 - INFO - Log file path: /log_analyser/logs_data/data_logs.txt
+2024-11-18 12:48:37,590 - INFO - Initializing LogParser
+2024-11-18 12:48:37,591 - INFO - Parsing the log file
+2024-11-18 12:48:37,593 - INFO - Parsed logs successfully
+2024-11-18 12:48:37,600 - INFO - Initializing SentimentAnalysis
+2024-11-18 12:48:38,518 - INFO - Analyzing sentiment of log messages
+2024-11-18 12:49:16,399 - INFO - Starting log analysis
+2024-11-18 12:49:16,399 - INFO - Log file path: /log_analyser/logs_data/data_logs.txt
+2024-11-18 12:49:16,399 - INFO - Initializing LogParser
+2024-11-18 12:49:16,399 - INFO - Parsing the log file
+2024-11-18 12:49:16,401 - INFO - Parsed logs successfully
+2024-11-18 12:49:16,407 - INFO - Initializing SentimentAnalysis
+2024-11-18 12:49:18,020 - INFO - Analyzing sentiment of log messages
+2024-11-18 12:49:19,797 - INFO - Sentiment analysis completed
+2024-11-18 12:49:19,800 - INFO - Initializing SensitiveDataParser
+2024-11-18 12:49:19,800 - INFO - Parsing sensitive data
+2024-11-18 12:49:19,801 - INFO - Sensitive data parsing completed
+2024-11-18 12:49:19,801 - INFO - Initializing KeywordClustering
+2024-11-18 12:49:19,801 - INFO - Clustering messages into categories
+2024-11-18 12:49:19,801 - INFO - Keyword clustering completed
+2024-11-18 12:49:19,804 - INFO - Initializing AnomalyPrediction
+2024-11-18 12:49:19,804 - INFO - Extracting anomalies from log messages
+2024-11-18 12:49:19,806 - INFO - Anomaly prediction completed
+2024-11-18 12:49:19,806 - INFO - Initializing RootCauseAnalysis
+2024-11-18 12:49:19,806 - INFO - Analyzing root causes
+2024-11-18 12:49:19,806 - INFO - Root cause analysis completed
+2024-11-18 12:49:19,806 - INFO - Initializing ThresholdAlert
+2024-11-18 12:49:19,806 - INFO - Analyzing thresholds for alerts
+2024-11-18 12:49:19,806 - INFO - Threshold alert analysis completed
+2024-11-18 12:49:19,806 - INFO - Initializing DBSCANClustering
+2024-11-18 12:49:19,806 - INFO - Clustering log messages using DBSCAN
+2024-11-18 12:49:19,819 - INFO - DBSCAN clustering completed
+2024-11-18 12:49:19,821 - INFO - Grouping logs by DBSCAN clusters
+2024-11-18 12:49:19,827 - INFO - Initializing HDBSCANClustering
+2024-11-18 12:49:19,827 - INFO - Clustering log messages using HDBSCAN
+2024-11-18 12:49:19,836 - INFO - HDBSCAN clustering completed
+2024-11-18 12:49:19,841 - INFO - Log analysis completed successfully
+2024-11-18 12:56:15,020 - INFO - Starting log analysis
+2024-11-18 12:56:15,020 - INFO - Log file path: /log_analyser/logs_data/data_logs.txt
+2024-11-18 12:56:15,020 - INFO - Initializing LogParser
+2024-11-18 12:56:15,020 - INFO - Parsing the log file
+2024-11-18 12:56:15,022 - INFO - Parsed logs successfully
+2024-11-18 12:56:15,028 - INFO - Initializing SentimentAnalysis
+2024-11-18 12:56:15,519 - INFO - Analyzing sentiment of log messages
+2024-11-18 12:56:26,613 - INFO - Starting log analysis
+2024-11-18 12:56:26,613 - INFO - Log file path: /log_analyser/logs_data/data_logs.txt
+2024-11-18 12:56:26,613 - INFO - Initializing LogParser
+2024-11-18 12:56:26,614 - INFO - Parsing the log file
+2024-11-18 12:56:26,614 - INFO - Parsed logs successfully
+2024-11-18 12:56:26,617 - INFO - Initializing SentimentAnalysis
+2024-11-18 12:56:26,986 - INFO - Analyzing sentiment of log messages
+2024-11-18 12:56:57,368 - INFO - Starting log analysis
+2024-11-18 12:56:57,368 - INFO - Log file path: /log_analyser/logs_data/data_logs.txt
+2024-11-18 12:56:57,368 - INFO - Initializing LogParser
+2024-11-18 12:56:57,368 - INFO - Parsing the log file
+2024-11-18 12:56:57,370 - INFO - Parsed logs successfully
+2024-11-18 12:56:57,376 - INFO - Initializing SentimentAnalysis
+2024-11-18 12:56:58,514 - INFO - Analyzing sentiment of log messages
+2024-11-18 12:57:00,273 - INFO - Sentiment analysis completed
+2024-11-18 12:57:00,276 - INFO - Initializing SensitiveDataParser
+2024-11-18 12:57:00,276 - INFO - Parsing sensitive data
+2024-11-18 12:57:00,277 - INFO - Sensitive data parsing completed
+2024-11-18 12:57:00,277 - INFO - Initializing KeywordClustering
+2024-11-18 12:57:00,277 - INFO - Clustering messages into categories
+2024-11-18 12:57:00,277 - INFO - Keyword clustering completed
+2024-11-18 12:57:00,280 - INFO - Initializing AnomalyPrediction
+2024-11-18 12:57:00,280 - INFO - Extracting anomalies from log messages
+2024-11-18 12:57:00,282 - INFO - Anomaly prediction completed
+2024-11-18 12:57:00,283 - INFO - Initializing RootCauseAnalysis
+2024-11-18 12:57:00,283 - INFO - Analyzing root causes
+2024-11-18 12:57:00,283 - INFO - Root cause analysis completed
+2024-11-18 12:57:00,283 - INFO - Initializing ThresholdAlert
+2024-11-18 12:57:00,283 - INFO - Analyzing thresholds for alerts
+2024-11-18 12:57:00,283 - INFO - Threshold alert analysis completed
+2024-11-18 12:57:00,284 - INFO - Initializing DBSCANClustering
+2024-11-18 12:57:00,284 - INFO - Clustering log messages using DBSCAN
+2024-11-18 12:57:00,292 - INFO - DBSCAN clustering completed
+2024-11-18 12:57:00,296 - INFO - Grouping logs by DBSCAN clusters
+2024-11-18 12:57:00,300 - INFO - Initializing HDBSCANClustering
+2024-11-18 12:57:00,300 - INFO - Clustering log messages using HDBSCAN
+2024-11-18 12:57:00,309 - INFO - HDBSCAN clustering completed
+2024-11-18 12:57:00,313 - INFO - Log analysis completed successfully
+2024-11-18 20:38:20,448 - INFO - Starting log analysis
+2024-11-18 20:38:20,449 - INFO - Log file path: /log_analyser/logs_data/data_logs.txt
+2024-11-18 20:38:20,449 - INFO - Initializing LogParser
+2024-11-18 20:38:20,449 - INFO - Parsing the log file
+2024-11-18 20:38:20,452 - INFO - Parsed logs successfully
+2024-11-18 20:38:20,465 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 20:38:20,466 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-11-18 20:38:20,466 - INFO - Initializing SentimentAnalysis
+2024-11-18 20:38:21,430 - INFO - Analyzing sentiment of log messages
+2024-11-18 20:38:23,085 - INFO - Sentiment analysis completed
+2024-11-18 20:38:23,089 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 20:38:23,090 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 20:38:23,090 - INFO - Initializing SensitiveDataParser
+2024-11-18 20:38:23,090 - INFO - Parsing sensitive data
+2024-11-18 20:38:23,090 - INFO - Sensitive data parsing completed
+2024-11-18 20:38:23,091 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-11-18 20:38:23,091 - INFO - Initializing KeywordClustering
+2024-11-18 20:38:23,091 - INFO - Clustering messages into categories
+2024-11-18 20:38:23,092 - INFO - Keyword clustering completed
+2024-11-18 20:38:23,096 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 20:38:23,096 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 20:38:23,096 - INFO - Initializing AnomalyPrediction
+2024-11-18 20:38:23,096 - INFO - Extracting anomalies from log messages
+2024-11-18 20:38:23,100 - INFO - Anomaly prediction completed
+2024-11-18 20:38:23,100 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2024-11-18 20:38:23,100 - INFO - Initializing RootCauseAnalysis
+2024-11-18 20:38:23,100 - INFO - Analyzing root causes
+2024-11-18 20:38:50,018 - INFO - Starting log analysis
+2024-11-18 20:38:50,018 - INFO - Log file path: /log_analyser/logs_data/data_logs.txt
+2024-11-18 20:38:50,018 - INFO - Initializing LogParser
+2024-11-18 20:38:50,018 - INFO - Parsing the log file
+2024-11-18 20:38:50,019 - INFO - Parsed logs successfully
+2024-11-18 20:38:50,022 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 20:38:50,022 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-11-18 20:38:50,022 - INFO - Initializing SentimentAnalysis
+2024-11-18 20:38:51,275 - INFO - Analyzing sentiment of log messages
+2024-11-18 20:38:52,998 - INFO - Sentiment analysis completed
+2024-11-18 20:38:53,001 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 20:38:53,001 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 20:38:53,001 - INFO - Initializing SensitiveDataParser
+2024-11-18 20:38:53,001 - INFO - Parsing sensitive data
+2024-11-18 20:38:53,002 - INFO - Sensitive data parsing completed
+2024-11-18 20:38:53,002 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-11-18 20:38:53,002 - INFO - Initializing KeywordClustering
+2024-11-18 20:38:53,002 - INFO - Clustering messages into categories
+2024-11-18 20:38:53,002 - INFO - Keyword clustering completed
+2024-11-18 20:38:53,005 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 20:38:53,006 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 20:38:53,006 - INFO - Initializing AnomalyPrediction
+2024-11-18 20:38:53,006 - INFO - Extracting anomalies from log messages
+2024-11-18 20:38:53,008 - INFO - Anomaly prediction completed
+2024-11-18 20:38:53,008 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2024-11-18 20:38:53,008 - INFO - Initializing RootCauseAnalysis
+2024-11-18 20:38:53,008 - INFO - Analyzing root causes
+2024-11-18 20:40:20,992 - INFO - Starting log analysis
+2024-11-18 20:40:20,992 - INFO - Log file path: /log_analyser/logs_data/data_logs.txt
+2024-11-18 20:40:20,992 - INFO - Initializing LogParser
+2024-11-18 20:40:20,992 - INFO - Parsing the log file
+2024-11-18 20:40:20,992 - INFO - Parsed logs successfully
+2024-11-18 20:40:20,996 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 20:40:20,996 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-11-18 20:40:20,996 - INFO - Initializing SentimentAnalysis
+2024-11-18 20:40:23,078 - INFO - Analyzing sentiment of log messages
+2024-11-18 20:40:25,023 - INFO - Sentiment analysis completed
+2024-11-18 20:40:25,026 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 20:40:25,026 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 20:40:25,026 - INFO - Initializing SensitiveDataParser
+2024-11-18 20:40:25,026 - INFO - Parsing sensitive data
+2024-11-18 20:40:25,027 - INFO - Sensitive data parsing completed
+2024-11-18 20:40:25,027 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-11-18 20:40:25,027 - INFO - Initializing KeywordClustering
+2024-11-18 20:40:25,027 - INFO - Clustering messages into categories
+2024-11-18 20:40:25,028 - INFO - Keyword clustering completed
+2024-11-18 20:40:25,031 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 20:40:25,031 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 20:40:25,031 - INFO - Initializing AnomalyPrediction
+2024-11-18 20:40:25,031 - INFO - Extracting anomalies from log messages
+2024-11-18 20:40:25,033 - INFO - Anomaly prediction completed
+2024-11-18 20:40:25,034 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2024-11-18 20:40:25,034 - INFO - Initializing RootCauseAnalysis
+2024-11-18 20:40:25,034 - INFO - Analyzing root causes
+2024-11-18 20:40:39,480 - INFO - Starting log analysis
+2024-11-18 20:40:39,480 - INFO - Log file path: /log_analyser/logs_data/data_logs.txt
+2024-11-18 20:40:39,480 - INFO - Initializing LogParser
+2024-11-18 20:40:39,480 - INFO - Parsing the log file
+2024-11-18 20:40:39,480 - INFO - Parsed logs successfully
+2024-11-18 20:40:39,484 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 20:40:39,484 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-11-18 20:40:39,484 - INFO - Initializing SentimentAnalysis
+2024-11-18 20:40:40,383 - INFO - Analyzing sentiment of log messages
+2024-11-18 20:40:42,201 - INFO - Sentiment analysis completed
+2024-11-18 20:40:42,204 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 20:40:42,204 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 20:40:42,204 - INFO - Initializing SensitiveDataParser
+2024-11-18 20:40:42,204 - INFO - Parsing sensitive data
+2024-11-18 20:40:42,205 - INFO - Sensitive data parsing completed
+2024-11-18 20:40:42,205 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-11-18 20:40:42,205 - INFO - Initializing KeywordClustering
+2024-11-18 20:40:42,205 - INFO - Clustering messages into categories
+2024-11-18 20:40:42,206 - INFO - Keyword clustering completed
+2024-11-18 20:40:42,208 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 20:40:42,209 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 20:40:42,209 - INFO - Initializing AnomalyPrediction
+2024-11-18 20:40:42,209 - INFO - Extracting anomalies from log messages
+2024-11-18 20:40:42,211 - INFO - Anomaly prediction completed
+2024-11-18 20:40:42,211 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2024-11-18 20:40:42,211 - INFO - Initializing RootCauseAnalysis
+2024-11-18 20:40:42,211 - INFO - Analyzing root causes
+2024-11-18 20:40:42,211 - INFO - Root cause analysis completed
+2024-11-18 20:40:42,212 - INFO - Saved JSON output: /log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 20:40:42,212 - INFO - Initializing ThresholdAlert
+2024-11-18 20:40:42,212 - INFO - Analyzing thresholds for alerts
+2024-11-18 20:40:42,212 - INFO - Threshold alert analysis completed
+2024-11-18 20:40:42,212 - INFO - Saved JSON output: /log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 20:40:42,212 - INFO - Initializing DBSCANClustering
+2024-11-18 20:40:42,212 - INFO - Clustering log messages using DBSCAN
+2024-11-18 20:40:42,220 - INFO - DBSCAN clustering completed
+2024-11-18 20:40:42,222 - INFO - Saved CSV output: /log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-18 20:40:42,223 - INFO - Saved JSON output: /log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-18 20:40:42,223 - INFO - Grouping logs by DBSCAN clusters
+2024-11-18 20:40:42,226 - INFO - Initializing HDBSCANClustering
+2024-11-18 20:40:42,226 - INFO - Clustering log messages using HDBSCAN
+2024-11-18 20:40:42,234 - INFO - HDBSCAN clustering completed
+2024-11-18 20:40:42,238 - INFO - Saved CSV output: /log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-18 20:40:42,239 - INFO - Saved JSON output: /log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-18 20:40:42,239 - INFO - Log analysis completed successfully
+2024-11-18 20:41:36,552 - INFO - Starting log analysis
+2024-11-18 20:41:36,552 - INFO - Log file path: /log_analyser/logs_data/data_logs.txt
+2024-11-18 20:41:36,552 - INFO - Initializing LogParser
+2024-11-18 20:41:36,553 - INFO - Parsing the log file
+2024-11-18 20:41:36,553 - INFO - Parsed logs successfully
+2024-11-18 20:41:36,556 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 20:41:36,556 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-11-18 20:41:36,556 - INFO - Initializing SentimentAnalysis
+2024-11-18 20:41:37,353 - INFO - Analyzing sentiment of log messages
+2024-11-18 20:41:39,043 - INFO - Sentiment analysis completed
+2024-11-18 20:41:39,045 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 20:41:39,045 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 20:41:39,045 - INFO - Initializing SensitiveDataParser
+2024-11-18 20:41:39,045 - INFO - Parsing sensitive data
+2024-11-18 20:41:39,046 - INFO - Sensitive data parsing completed
+2024-11-18 20:41:39,046 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-11-18 20:41:39,046 - INFO - Initializing KeywordClustering
+2024-11-18 20:41:39,046 - INFO - Clustering messages into categories
+2024-11-18 20:41:39,047 - INFO - Keyword clustering completed
+2024-11-18 20:41:39,050 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 20:41:39,050 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 20:41:39,050 - INFO - Initializing AnomalyPrediction
+2024-11-18 20:41:39,050 - INFO - Extracting anomalies from log messages
+2024-11-18 20:41:39,052 - INFO - Anomaly prediction completed
+2024-11-18 20:41:39,052 - INFO - Structured anomalies data successfully parsed
+2024-11-18 20:41:39,052 - INFO - Initializing RootCauseAnalysis
+2024-11-18 20:41:39,052 - INFO - Analyzing root causes
+2024-11-18 20:41:39,052 - INFO - Root cause analysis completed
+2024-11-18 20:41:39,052 - INFO - Saved JSON output: /log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 20:41:39,052 - INFO - Log analysis completed successfully
+2024-11-18 20:45:21,335 - INFO - Starting log analysis
+2024-11-18 20:45:21,335 - INFO - Log file path: /log_analyser/logs_data/data_logs.txt
+2024-11-18 20:45:21,335 - INFO - Initializing LogParser
+2024-11-18 20:45:21,335 - INFO - Parsing the log file
+2024-11-18 20:45:21,336 - INFO - Parsed logs successfully
+2024-11-18 20:45:21,339 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 20:45:21,339 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-11-18 20:45:21,339 - INFO - Initializing SentimentAnalysis
+2024-11-18 20:45:22,314 - INFO - Analyzing sentiment of log messages
+2024-11-18 20:45:23,998 - INFO - Sentiment analysis completed
+2024-11-18 20:45:24,001 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 20:45:24,001 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 20:45:24,001 - INFO - Initializing SensitiveDataParser
+2024-11-18 20:45:24,001 - INFO - Parsing sensitive data
+2024-11-18 20:45:24,002 - INFO - Sensitive data parsing completed
+2024-11-18 20:45:24,002 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-11-18 20:45:24,002 - INFO - Initializing KeywordClustering
+2024-11-18 20:45:24,002 - INFO - Clustering messages into categories
+2024-11-18 20:45:24,003 - INFO - Keyword clustering completed
+2024-11-18 20:45:24,006 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 20:45:24,006 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 20:45:24,007 - INFO - Initializing AnomalyPrediction
+2024-11-18 20:45:24,007 - INFO - Extracting anomalies from log messages
+2024-11-18 20:45:24,008 - INFO - Anomaly prediction completed
+2024-11-18 20:45:24,008 - INFO - Structured anomalies data successfully parsed
+2024-11-18 20:45:24,008 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2024-11-18 20:45:24,008 - INFO - Initializing RootCauseAnalysis
+2024-11-18 20:45:24,008 - INFO - Analyzing root causes
+2024-11-18 20:45:24,008 - INFO - Root cause analysis completed
+2024-11-18 20:45:24,009 - INFO - Saved JSON output: /log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 20:45:24,009 - INFO - Initializing ThresholdAlert
+2024-11-18 20:45:24,009 - INFO - Analyzing thresholds for alerts
+2024-11-18 20:45:24,009 - INFO - Threshold alert analysis completed
+2024-11-18 20:45:24,009 - INFO - Saved JSON output: /log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 20:45:24,009 - INFO - Log analysis completed successfully
+2024-11-18 21:00:53,888 - INFO - Starting log analysis
+2024-11-18 21:00:53,888 - INFO - Log file path: /log_analyser/logs_data/data_logs.txt
+2024-11-18 21:00:53,888 - INFO - Initializing LogParser
+2024-11-18 21:00:53,888 - INFO - Parsing the log file
+2024-11-18 21:00:53,889 - INFO - Parsed logs successfully
+2024-11-18 21:00:53,893 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 21:00:53,893 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-11-18 21:00:53,893 - INFO - Initializing SentimentAnalysis
+2024-11-18 21:00:55,804 - INFO - Analyzing sentiment of log messages
+2024-11-18 21:00:57,548 - INFO - Sentiment analysis completed
+2024-11-18 21:00:57,551 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 21:00:57,552 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 21:00:57,552 - INFO - Initializing SensitiveDataParser
+2024-11-18 21:00:57,552 - INFO - Parsing sensitive data
+2024-11-18 21:00:57,552 - INFO - Sensitive data parsing completed
+2024-11-18 21:00:57,552 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-11-18 21:00:57,552 - INFO - Initializing KeywordClustering
+2024-11-18 21:00:57,552 - INFO - Clustering messages into categories
+2024-11-18 21:00:57,553 - INFO - Keyword clustering completed
+2024-11-18 21:00:57,556 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 21:00:57,556 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 21:00:57,556 - INFO - Initializing AnomalyPrediction
+2024-11-18 21:00:57,556 - INFO - Extracting anomalies from log messages
+2024-11-18 21:00:57,557 - INFO - Anomaly prediction completed
+2024-11-18 21:00:57,557 - INFO - Structured anomalies data successfully parsed
+2024-11-18 21:00:57,558 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2024-11-18 21:00:57,558 - INFO - Initializing RootCauseAnalysis
+2024-11-18 21:00:57,558 - INFO - Analyzing root causes
+2024-11-18 21:00:57,558 - INFO - Root cause analysis completed
+2024-11-18 21:00:57,558 - INFO - Saved JSON output: /log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 21:00:57,558 - INFO - Initializing ThresholdAlert
+2024-11-18 21:00:57,558 - INFO - Analyzing thresholds for alerts
+2024-11-18 21:00:57,558 - INFO - Threshold alert analysis completed
+2024-11-18 21:00:57,558 - INFO - Saved JSON output: /log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 21:00:57,558 - INFO - Log analysis completed successfully
+2024-11-18 21:23:35,693 - INFO - Starting log analysis
+2024-11-18 21:24:54,787 - INFO - Starting log analysis
+2024-11-18 21:25:14,381 - INFO - Starting log analysis
+2024-11-18 21:31:31,946 - INFO - Starting log analysis
+2024-11-18 21:34:18,051 - INFO - Starting log analysis
+2024-11-18 21:34:18,056 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 21:34:18,057 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-11-18 21:34:21,439 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 21:34:21,440 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 21:34:21,509 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-11-18 21:34:21,510 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 21:34:21,511 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 21:38:52,952 - INFO - Starting log analysis
+2024-11-18 21:38:52,956 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 21:38:52,956 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-11-18 21:38:56,563 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 21:38:56,564 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 21:38:56,634 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-11-18 21:38:56,635 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 21:38:56,636 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 21:38:56,714 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2024-11-18 21:38:56,714 - INFO - Saved JSON output: /log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 21:38:56,714 - INFO - Saved JSON output: /log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 21:38:56,714 - INFO - Log analysis completed successfully
+2024-11-18 21:40:02,074 - INFO - Starting log analysis
+2024-11-18 21:40:02,077 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 21:40:02,078 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-11-18 21:40:04,908 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 21:40:04,909 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 21:40:04,978 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-11-18 21:40:04,979 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 21:40:04,979 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 21:40:05,055 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2024-11-18 21:40:05,056 - INFO - Saved JSON output: /log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 21:40:05,056 - INFO - Saved JSON output: /log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 21:40:05,056 - INFO - Log analysis completed successfully
+2024-11-18 21:43:22,431 - INFO - Starting log analysis
+2024-11-18 21:43:22,434 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 21:43:22,435 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-11-18 21:43:25,946 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 21:43:25,946 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 21:43:26,019 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-11-18 21:43:26,020 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 21:43:26,020 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 21:43:26,098 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2024-11-18 21:43:26,098 - INFO - Saved JSON output: /log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 21:43:26,099 - INFO - Saved JSON output: /log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 21:43:26,106 - INFO - Saved CSV output: /log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-18 21:43:26,106 - INFO - Saved JSON output: /log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-18 21:43:26,114 - INFO - Saved CSV output: /log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-18 21:43:26,115 - INFO - Saved JSON output: /log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-18 21:43:26,115 - INFO - Log analysis completed successfully
+2024-11-18 21:46:28,151 - INFO - Starting log analysis
+2024-11-18 21:46:28,154 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 21:46:28,155 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-11-18 21:46:31,312 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 21:46:31,312 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 21:46:31,383 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-11-18 21:46:31,385 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 21:46:31,385 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 21:46:31,466 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2024-11-18 21:46:31,466 - INFO - Saved JSON output: /log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 21:46:31,466 - INFO - Saved JSON output: /log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 21:46:31,470 - INFO - Saved CSV output: /log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-18 21:46:31,470 - INFO - Saved JSON output: /log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-18 21:46:31,475 - INFO - Saved CSV output: /log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-18 21:46:31,475 - INFO - Saved JSON output: /log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-18 21:46:31,475 - INFO - Log analysis completed successfully
+2024-11-18 21:48:38,663 - INFO - Starting log analysis
+2024-11-18 21:48:38,670 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 21:48:38,671 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-11-18 21:49:19,026 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 21:49:19,028 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 21:49:19,111 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-11-18 21:49:19,122 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 21:49:19,124 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 21:49:19,225 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2024-11-18 21:49:19,226 - INFO - Saved JSON output: /log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 21:49:19,226 - INFO - Saved JSON output: /log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 21:49:19,250 - INFO - Saved CSV output: /log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-18 21:49:19,252 - INFO - Saved JSON output: /log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-18 21:49:19,584 - INFO - Saved CSV output: /log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-18 21:49:19,585 - INFO - Saved JSON output: /log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-18 21:49:19,585 - INFO - Log analysis completed successfully
+2024-11-18 21:58:15,710 - INFO - Starting log analysis
+2024-11-18 21:58:15,718 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 21:58:15,719 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-11-18 22:00:35,198 - INFO - Starting log analysis
+2024-11-18 22:00:35,202 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 22:00:35,203 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.json
+2024-11-18 22:00:46,315 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 22:00:46,316 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 22:00:46,397 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sensitive_data.json
+2024-11-18 22:00:46,401 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 22:00:46,402 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 22:00:46,490 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/anomalies.json
+2024-11-18 22:00:46,490 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 22:00:46,491 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 22:00:46,499 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-18 22:00:46,500 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-18 22:00:46,532 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-18 22:00:46,533 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-18 22:00:46,533 - INFO - Log analysis completed successfully
+2024-11-18 22:02:16,469 - INFO - Starting log analysis
+2024-11-18 22:02:16,476 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 22:02:16,477 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.json
+2024-11-18 22:02:27,925 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 22:02:27,926 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 22:02:28,001 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sensitive_data.json
+2024-11-18 22:02:28,005 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 22:02:28,006 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 22:02:28,085 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/anomalies.json
+2024-11-18 22:02:28,085 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 22:02:28,086 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 22:02:28,092 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-18 22:02:28,092 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-18 22:02:28,120 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-18 22:02:28,120 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-18 22:02:28,120 - INFO - Log analysis completed successfully
+2024-11-18 22:13:51,104 - INFO - Starting log analysis
+2024-11-18 22:13:51,114 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 22:13:51,115 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.json
+2024-11-18 22:14:03,369 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 22:14:03,370 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 22:14:03,446 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sensitive_data.json
+2024-11-18 22:14:03,450 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 22:14:03,451 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 22:14:03,532 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/anomalies.json
+2024-11-18 22:14:03,533 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 22:14:03,533 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 22:14:03,541 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-18 22:14:03,542 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-18 22:14:03,573 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-18 22:14:03,573 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-18 22:14:03,573 - INFO - Log analysis completed successfully
+2024-11-18 22:14:31,915 - INFO - Starting log analysis
+2024-11-18 22:14:31,919 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 22:14:31,920 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.json
+2024-11-18 22:14:43,172 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 22:14:43,173 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 22:14:43,247 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sensitive_data.json
+2024-11-18 22:14:43,250 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 22:14:43,251 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 22:14:43,330 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/anomalies.json
+2024-11-18 22:14:43,330 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 22:14:43,330 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 22:14:43,336 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-18 22:14:43,337 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-18 22:14:43,364 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-18 22:14:43,365 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-18 22:14:43,365 - INFO - Log analysis completed successfully
+2024-11-19 11:40:07,888 - INFO - Starting log analysis
+2024-11-19 11:40:07,900 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.csv
+2024-11-19 11:40:07,900 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.json
+2024-11-19 11:40:12,130 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-19 11:40:12,131 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-19 11:40:12,206 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sensitive_data.json
+2024-11-19 11:40:12,207 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-19 11:40:12,208 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-19 11:40:12,290 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/anomalies.json
+2024-11-19 11:40:12,291 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/root_cause_analysis.json
+2024-11-19 11:40:12,291 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/threshold_alerts.json
+2024-11-19 11:40:12,298 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-19 11:40:12,298 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-19 11:40:12,308 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-19 11:40:12,308 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-19 11:40:12,308 - INFO - Log analysis completed successfully
+2024-11-25 15:31:40,934 - INFO - Starting log analysis
+2024-11-25 15:31:40,948 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.csv
+2024-11-25 15:31:40,949 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.json
+2024-11-25 15:31:45,659 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-25 15:31:45,660 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-25 15:31:45,742 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sensitive_data.json
+2024-11-25 15:31:45,744 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-25 15:31:45,745 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-25 15:31:45,831 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/anomalies.json
+2024-11-25 15:31:45,831 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/root_cause_analysis.json
+2024-11-25 15:31:45,831 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/threshold_alerts.json
+2024-11-25 15:31:45,837 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-25 15:31:45,838 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-25 15:31:45,846 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-25 15:31:45,847 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-25 15:31:45,847 - INFO - Log analysis completed successfully
+2024-11-25 15:39:14,549 - INFO - Starting log analysis
+2024-11-25 15:39:14,561 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.csv
+2024-11-25 15:39:14,562 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.json
+2024-11-25 15:39:21,665 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-25 15:39:21,666 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-25 15:39:21,748 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sensitive_data.json
+2024-11-25 15:39:21,750 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-25 15:39:21,752 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-25 15:39:21,831 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/anomalies.json
+2024-11-25 15:39:21,831 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/root_cause_analysis.json
+2024-11-25 15:39:21,832 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/threshold_alerts.json
+2024-11-25 15:39:21,841 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-25 15:39:21,841 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-25 15:39:21,852 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-25 15:39:21,852 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-25 15:39:21,852 - INFO - Log analysis completed successfully
+2024-11-25 15:40:12,066 - INFO - Starting log analysis
+2024-11-25 15:40:12,070 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.csv
+2024-11-25 15:40:12,070 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.json
+2024-11-25 15:40:39,047 - INFO - Starting log analysis
+2024-11-25 15:40:39,051 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.csv
+2024-11-25 15:40:39,051 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.json
+2024-11-25 15:41:26,498 - INFO - Starting log analysis
+2024-11-25 15:41:26,502 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.csv
+2024-11-25 15:41:26,503 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.json
+2024-11-25 15:45:09,118 - INFO - Starting log analysis
+2024-11-25 15:45:09,130 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.csv
+2024-11-25 15:45:09,131 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.json
+2024-11-25 15:54:31,015 - INFO - Starting log analysis
+2024-11-25 15:54:31,025 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.csv
+2024-11-25 15:54:31,026 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/parsed_logs.json
+2024-11-25 15:54:34,742 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-25 15:54:34,743 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-25 15:54:34,830 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/sensitive_data.json
+2024-11-25 15:54:34,833 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-25 15:54:34,834 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-25 15:54:34,925 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/anomalies.json
+2024-11-25 15:54:34,925 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/root_cause_analysis.json
+2024-11-25 15:54:34,925 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/threshold_alerts.json
+2024-11-25 15:54:34,933 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-25 15:54:34,933 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-25 15:54:34,942 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-25 15:54:34,943 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer//log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-25 15:54:34,943 - INFO - Log analysis completed successfully
+2024-11-26 13:10:51,214 - INFO - Starting log analysis
+2024-11-26 13:10:51,223 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-11-26 13:10:51,223 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-11-26 13:10:55,265 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-26 13:10:55,267 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-26 13:10:55,349 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-11-26 13:10:55,351 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-26 13:10:55,352 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-26 13:10:55,431 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2024-11-26 13:10:55,431 - INFO - Saved JSON output: /log_analyser/model_outputs/root_cause_analysis.json
+2024-11-26 13:10:55,431 - INFO - Saved JSON output: /log_analyser/model_outputs/threshold_alerts.json
+2024-11-26 13:10:55,438 - INFO - Saved CSV output: /log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-26 13:10:55,439 - INFO - Saved JSON output: /log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-26 13:10:55,451 - INFO - Saved CSV output: /log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-26 13:10:55,451 - INFO - Saved JSON output: /log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-26 13:10:55,451 - INFO - Log analysis completed successfully
+2024-11-26 13:12:46,646 - INFO - Starting log analysis
+2024-11-26 13:12:46,650 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-11-26 13:12:46,651 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-11-26 13:12:57,660 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-26 13:12:57,663 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-26 13:12:57,745 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-11-26 13:12:57,749 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-26 13:12:57,750 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-26 13:12:57,846 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2024-11-26 13:12:57,846 - INFO - Saved JSON output: /log_analyser/model_outputs/root_cause_analysis.json
+2024-11-26 13:12:57,846 - INFO - Saved JSON output: /log_analyser/model_outputs/threshold_alerts.json
+2024-11-26 13:12:57,856 - INFO - Saved CSV output: /log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-26 13:12:57,857 - INFO - Saved JSON output: /log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-26 13:12:57,880 - INFO - Saved CSV output: /log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-26 13:12:57,881 - INFO - Saved JSON output: /log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-26 13:12:57,881 - INFO - Log analysis completed successfully
+2024-11-26 13:17:42,377 - INFO - Starting log analysis
+2024-11-26 13:17:42,385 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-11-26 13:17:42,385 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-11-26 13:17:51,310 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-26 13:17:51,312 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-26 13:17:51,401 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-11-26 13:17:51,405 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-26 13:17:51,406 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-26 13:17:51,490 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2024-11-26 13:17:51,490 - INFO - Saved JSON output: /log_analyser/model_outputs/root_cause_analysis.json
+2024-11-26 13:17:51,490 - INFO - Saved JSON output: /log_analyser/model_outputs/threshold_alerts.json
+2024-11-26 13:17:51,500 - INFO - Saved CSV output: /log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-26 13:17:51,501 - INFO - Saved JSON output: /log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-26 13:17:51,524 - INFO - Saved CSV output: /log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-26 13:17:51,526 - INFO - Saved JSON output: /log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-26 13:17:51,526 - INFO - Log analysis completed successfully
+2024-11-26 15:54:18,592 - INFO - Starting log analysis
+2024-11-26 15:54:18,602 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-11-26 15:54:18,603 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-11-26 15:54:27,414 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-26 15:54:27,415 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-26 15:54:27,494 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-11-26 15:54:27,498 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-26 15:54:27,500 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-26 15:54:27,583 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2024-11-26 15:54:27,583 - INFO - Saved JSON output: /log_analyser/model_outputs/root_cause_analysis.json
+2024-11-26 15:54:27,584 - INFO - Saved JSON output: /log_analyser/model_outputs/threshold_alerts.json
+2024-11-26 15:54:27,593 - INFO - Saved CSV output: /log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-26 15:54:27,594 - INFO - Saved JSON output: /log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-26 15:54:27,614 - INFO - Saved CSV output: /log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-26 15:54:27,615 - INFO - Saved JSON output: /log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-26 15:54:27,615 - INFO - Log analysis completed successfully
+2024-12-02 17:47:54,748 - INFO - Starting log analysis
+2024-12-02 17:47:54,760 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-12-02 17:47:54,761 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-12-02 17:48:09,478 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-12-02 17:48:09,480 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-12-02 17:48:09,588 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-12-02 17:48:09,593 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-12-02 17:48:09,594 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-12-02 17:48:09,679 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2024-12-02 17:48:09,679 - INFO - Saved JSON output: /log_analyser/model_outputs/root_cause_analysis.json
+2024-12-02 17:48:09,680 - INFO - Saved JSON output: /log_analyser/model_outputs/threshold_alerts.json
+2024-12-02 17:48:09,691 - INFO - Saved CSV output: /log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-12-02 17:48:09,692 - INFO - Saved JSON output: /log_analyser/model_outputs/dbscan_clustering_results.json
+2024-12-02 17:48:09,714 - INFO - Saved CSV output: /log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-12-02 17:48:09,714 - INFO - Saved JSON output: /log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-12-02 17:48:09,714 - INFO - Log analysis completed successfully
+2024-12-02 22:05:09,012 - INFO - Starting log analysis
+2024-12-02 22:05:09,026 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-12-02 22:05:09,027 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-12-02 22:05:18,031 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-12-02 22:05:18,032 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-12-02 22:05:18,108 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-12-02 22:05:18,113 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-12-02 22:05:18,115 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-12-02 22:05:18,204 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2024-12-02 22:05:18,205 - INFO - Saved JSON output: /log_analyser/model_outputs/root_cause_analysis.json
+2024-12-02 22:05:18,206 - INFO - Saved JSON output: /log_analyser/model_outputs/threshold_alerts.json
+2024-12-02 22:05:18,216 - INFO - Saved CSV output: /log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-12-02 22:05:18,217 - INFO - Saved JSON output: /log_analyser/model_outputs/dbscan_clustering_results.json
+2024-12-02 22:05:18,236 - INFO - Saved CSV output: /log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-12-02 22:05:18,238 - INFO - Saved JSON output: /log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-12-02 22:05:18,238 - INFO - Log analysis completed successfully
+2024-12-02 22:14:00,322 - INFO - Starting log analysis
+2024-12-02 22:14:00,335 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-12-02 22:14:00,336 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-12-02 22:14:09,757 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-12-02 22:14:09,759 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-12-02 22:14:09,832 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-12-02 22:14:09,836 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-12-02 22:14:09,839 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-12-02 22:14:09,923 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2024-12-02 22:14:09,923 - INFO - Saved JSON output: /log_analyser/model_outputs/root_cause_analysis.json
+2024-12-02 22:14:09,923 - INFO - Saved JSON output: /log_analyser/model_outputs/threshold_alerts.json
+2024-12-02 22:14:09,932 - INFO - Saved CSV output: /log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-12-02 22:14:09,933 - INFO - Saved JSON output: /log_analyser/model_outputs/dbscan_clustering_results.json
+2024-12-02 22:14:09,952 - INFO - Saved CSV output: /log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-12-02 22:14:09,954 - INFO - Saved JSON output: /log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-12-02 22:14:09,954 - INFO - Log analysis completed successfully
+2024-12-02 22:14:34,389 - INFO - Starting log analysis
+2024-12-02 22:14:34,394 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-12-02 22:14:34,394 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-12-02 22:14:42,989 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-12-02 22:14:42,990 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-12-02 22:14:43,069 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-12-02 22:16:32,207 - INFO - Starting log analysis
+2024-12-02 22:16:32,224 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-12-02 22:16:32,226 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-12-02 22:16:40,381 - INFO - Starting log analysis
+2024-12-02 22:16:40,386 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-12-02 22:16:40,386 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-12-02 22:16:49,338 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-12-02 22:16:49,340 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-12-02 22:16:49,415 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-12-02 23:09:46,989 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:09:50,470 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:09:53,136 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:09:58,946 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:10:01,500 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:10:05,642 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:10:08,597 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:10:12,078 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:10:15,561 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:10:18,736 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:10:22,034 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:10:25,185 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:12:13,343 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:12:16,818 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:12:19,568 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:15:38,481 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:15:42,016 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:15:44,677 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:15:48,101 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:15:50,718 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 23:16:03,538 - INFO - Starting log analysis
+2024-12-02 23:16:03,548 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2024-12-02 23:16:03,550 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2024-12-02 23:16:12,160 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-12-02 23:16:12,161 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2024-12-02 23:16:12,239 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2024-12-02 23:16:12,243 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2024-12-02 23:16:12,245 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2024-12-02 23:16:12,335 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2024-12-02 23:16:12,335 - INFO - Saved JSON output: /log_analyser/model_outputs/root_cause_analysis.json
+2024-12-02 23:16:12,336 - INFO - Saved JSON output: /log_analyser/model_outputs/threshold_alerts.json
+2024-12-02 23:16:12,344 - INFO - Saved CSV output: /log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-12-02 23:16:12,345 - INFO - Saved JSON output: /log_analyser/model_outputs/dbscan_clustering_results.json
+2024-12-02 23:16:12,364 - INFO - Saved CSV output: /log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-12-02 23:16:12,365 - INFO - Saved JSON output: /log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-12-02 23:16:12,365 - INFO - Log analysis completed successfully
+2025-01-26 19:05:36,579 - INFO - Starting log analysis
+2025-01-26 19:05:36,601 - INFO - Saved CSV output: /log_analyser/model_outputs/parsed_logs.csv
+2025-01-26 19:05:36,603 - INFO - Saved JSON output: /log_analyser/model_outputs/parsed_logs.json
+2025-01-26 19:05:50,478 - INFO - Saved CSV output: /log_analyser/model_outputs/sentiment_analysis_results.csv
+2025-01-26 19:05:50,479 - INFO - Saved JSON output: /log_analyser/model_outputs/sentiment_analysis_results.json
+2025-01-26 19:05:50,554 - INFO - Saved JSON output: /log_analyser/model_outputs/sensitive_data.json
+2025-01-26 19:05:50,558 - INFO - Saved CSV output: /log_analyser/model_outputs/keyword_clustering_results.csv
+2025-01-26 19:05:50,558 - INFO - Saved JSON output: /log_analyser/model_outputs/keyword_clustering_results.json
+2025-01-26 19:05:50,649 - INFO - Saved JSON output: /log_analyser/model_outputs/anomalies.json
+2025-01-26 19:05:50,649 - INFO - Saved JSON output: /log_analyser/model_outputs/root_cause_analysis.json
+2025-01-26 19:05:50,650 - INFO - Saved JSON output: /log_analyser/model_outputs/threshold_alerts.json
+2025-01-26 19:05:50,656 - INFO - Saved CSV output: /log_analyser/model_outputs/dbscan_clustering_results.csv
+2025-01-26 19:05:50,657 - INFO - Saved JSON output: /log_analyser/model_outputs/dbscan_clustering_results.json
+2025-01-26 19:05:50,672 - INFO - Saved CSV output: /log_analyser/model_outputs/hdbscan_clustering_results.csv
+2025-01-26 19:05:50,673 - INFO - Saved JSON output: /log_analyser/model_outputs/hdbscan_clustering_results.json
+2025-01-26 19:05:50,673 - INFO - Log analysis completed successfully
