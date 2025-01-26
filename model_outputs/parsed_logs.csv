@@ -1,0 +1,205 @@
+timestamp,host,level,message
+2025-01-26 19:00:00,,INFO,Kubernetes pod scaled up successfully. New replicas: 5.
+2025-01-26 19:04:00,,ERROR,CPU usage is critically high: 37%. Immediate action required.
+2025-01-26 19:06:00,,INFO,User user123@domain.org logged in from IP 192.168.0.222. Login duration: 10 minutes.
+2025-01-26 19:09:00,,ERROR,Docker container failed to start for service Airflow. Error log: Container crashed on startup.
+2025-01-26 19:16:00,,ERROR,POST request to /api/v1/orders failed. Response code: 500 Internal Server Error. Error details: Missing authentication token.
+2025-01-26 19:24:00,,ERROR,Lambda function execution failed in AWS. Error: Invalid parameters provided.
+2025-01-26 19:28:00,,INFO,Lambda function executed successfully in AWS. Execution duration: 250ms.
+2025-01-26 19:31:00,,ERROR,CPU usage is critically high: 56%. Immediate action required.
+2025-01-26 19:35:00,,INFO,Phone number 9123456789 was successfully added to the system.
+2025-01-26 19:43:00,,INFO,Disk usage is 88%. Disk space within acceptable limits.
+2025-01-26 19:47:00,,INFO,Lambda function executed successfully in AWS. Execution duration: 250ms.
+2025-01-26 19:48:00,,INFO,Kubernetes pod scaled up successfully. New replicas: 5.
+2025-01-26 19:54:00,,ERROR,Airflow encountered an issue. Exception: NullPointerException in thread 'main'.
+2025-01-26 19:56:00,,INFO,Docker container started successfully for service Kubernetes. Container ID: abcd1234efgh5678.
+2025-01-26 20:04:00,,ERROR,Failed to consume message from topic 'topic_orders' using Kafka. Error: TimeoutException after 30 seconds.
+2025-01-26 20:08:00,,INFO,Task 'task_data_validation' in DAG 'dag_model_training' completed successfully in 45 seconds.
+2025-01-26 20:12:00,,ERROR,Failed to consume message from topic 'topic_events' using Java. Error: TimeoutException after 30 seconds.
+2025-01-26 21:00:00,,ERROR,Kubernetes pod crash detected. Pod ID: kube_pod12345.
+2025-01-26 21:06:00,,ERROR,Lambda function execution failed in AWS. Error: Invalid parameters provided.
+2025-01-26 21:13:00,,INFO,User user123@domain.org logged in from IP 192.168.0.106. Login duration: 10 minutes.
+2025-01-26 21:16:00,,ERROR,Disk usage is critically high: 61%. Threshold exceeded on volume /dev/sda1.
+2025-01-26 21:21:00,,ERROR,Kubernetes encountered an issue. Exception: NullPointerException in thread 'main'.
+2025-01-26 21:23:00,,INFO,Disk usage is 89%. Disk space within acceptable limits.
+2025-01-26 21:31:00,,INFO,Disk usage is 36%. Disk space within acceptable limits.
+2025-01-26 21:33:00,,INFO,Task 'task_model_training' in DAG 'dag_user_sync' completed successfully in 45 seconds.
+2025-01-26 21:36:00,,INFO,CPU usage is 88%. Threshold not exceeded. System operating normally.
+2025-01-26 21:41:00,,ERROR,Task 'task_data_validation' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2.
+2025-01-26 21:42:00,,ERROR,Lambda function execution failed in AWS. Error: Invalid parameters provided.
+2025-01-26 21:46:00,,INFO,AWS operation completed successfully. Processed 1500 records in 2.35 seconds.
+2025-01-26 21:54:00,,ERROR,Phone number 9988776655 could not be added due to a duplicate record conflict in the database.
+2025-01-26 22:03:00,,ERROR,Disk usage is critically high: 74%. Threshold exceeded on volume /dev/sda1.
+2025-01-26 22:11:00,,ERROR,Disk usage is critically high: 22%. Threshold exceeded on volume /dev/sda1.
+2025-01-26 22:16:00,,ERROR,Lambda function execution failed in AWS. Error: Invalid parameters provided.
+2025-01-26 22:21:00,,INFO,Docker container started successfully for service Azure. Container ID: abcd1234efgh5678.
+2025-01-26 23:00:00,,INFO,Disk usage is 94%. Disk space within acceptable limits.
+2025-01-26 23:05:00,,ERROR,Failed to consume message from topic 'topic_transactions' using Docker. Error: TimeoutException after 30 seconds.
+2025-01-26 23:13:00,,INFO,Kubernetes pod scaled up successfully. New replicas: 5.
+2025-01-26 23:21:00,,ERROR,Kubernetes pod crash detected. Pod ID: kube_pod12345.
+2025-01-26 23:29:00,,INFO,Disk usage is 74%. Disk space within acceptable limits.
+2025-01-26 23:30:00,,INFO,Lambda function executed successfully in AWS. Execution duration: 250ms.
+2025-01-26 23:37:00,,ERROR,CPU usage is critically high: 44%. Immediate action required.
+2025-01-26 23:46:00,,ERROR,Kubernetes pod crash detected. Pod ID: kube_pod12345.
+2025-01-26 23:55:00,,INFO,DELETE request to /api/v1/orders succeeded. Response code: 200 OK. Response size: 1.2MB.
+2025-01-27 00:05:00,,INFO,User alice.smith@test.com logged in from IP 192.168.0.27. Login duration: 10 minutes.
+2025-01-27 00:12:00,,ERROR,Phone number 9876543210 could not be added due to a duplicate record conflict in the database.
+2025-01-27 00:15:00,,INFO,Kubernetes pod scaled up successfully. New replicas: 5.
+2025-01-27 00:16:00,,ERROR,Failed to consume message from topic 'topic_orders' using Docker. Error: TimeoutException after 30 seconds.
+2025-01-27 00:21:00,,INFO,Task 'task_etl' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds.
+2025-01-27 00:30:00,,ERROR,Failed to consume message from topic 'topic_transactions' using Python. Error: TimeoutException after 30 seconds.
+2025-01-27 00:34:00,,ERROR,Phone number 9876543210 could not be added due to a duplicate record conflict in the database.
+2025-01-27 00:39:00,,INFO,Azure operation completed successfully. Processed 1500 records in 2.35 seconds.
+2025-01-27 01:00:00,,ERROR,Task 'task_data_validation' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2.
+2025-01-27 01:05:00,,INFO,POST request to /healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB.
+2025-01-27 01:07:00,,INFO,Published message to topic 'topic_events' using Java. Message delivery confirmed after 10 retries.
+2025-01-27 01:09:00,,INFO,DELETE request to /admin/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB.
+2025-01-27 01:16:00,,INFO,CPU usage is 61%. Threshold not exceeded. System operating normally.
+2025-01-27 01:21:00,,INFO,Phone number 9876543210 was successfully added to the system.
+2025-01-27 01:31:00,,ERROR,Phone number 9988776655 could not be added due to a duplicate record conflict in the database.
+2025-01-27 01:32:00,,ERROR,Phone number 9876543210 could not be added due to a duplicate record conflict in the database.
+2025-01-27 01:42:00,,INFO,Task 'task_data_validation' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds.
+2025-01-27 01:49:00,,INFO,Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.
+2025-01-27 01:50:00,,INFO,CPU usage is 34%. Threshold not exceeded. System operating normally.
+2025-01-27 01:59:00,,INFO,Phone number 9876543210 was successfully added to the system.
+2025-01-27 02:06:00,,INFO,Published message to topic 'topic_orders' using AWS. Message delivery confirmed after 10 retries.
+2025-01-27 02:10:00,,INFO,GET request to /admin/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB.
+2025-01-27 02:16:00,,ERROR,Kubernetes encountered an issue. Exception: NullPointerException in thread 'main'.
+2025-01-27 02:25:00,,INFO,Kubernetes pod scaled up successfully. New replicas: 5.
+2025-01-27 02:34:00,,ERROR,CPU usage is critically high: 70%. Immediate action required.
+2025-01-27 03:00:00,,ERROR,Phone number 9123456789 could not be added due to a duplicate record conflict in the database.
+2025-01-27 03:06:00,,ERROR,Lambda function execution failed in AWS. Error: Invalid parameters provided.
+2025-01-27 03:16:00,,INFO,User john.doe@example.com logged in from IP 192.168.0.223. Login duration: 10 minutes.
+2025-01-27 03:21:00,,INFO,Azure operation completed successfully. Processed 1500 records in 2.35 seconds.
+2025-01-27 03:25:00,,INFO,Published message to topic 'topic_events' using Python. Message delivery confirmed after 10 retries.
+2025-01-27 03:33:00,,ERROR,Kubernetes pod crash detected. Pod ID: kube_pod12345.
+2025-01-27 03:37:00,,INFO,Published message to topic 'topic_transactions' using Airflow. Message delivery confirmed after 10 retries.
+2025-01-27 03:42:00,,INFO,Published message to topic 'topic_transactions' using Docker. Message delivery confirmed after 10 retries.
+2025-01-27 03:47:00,,ERROR,PUT request to /api/v1/users failed. Response code: 500 Internal Server Error. Error details: Missing authentication token.
+2025-01-27 03:52:00,,INFO,Published message to topic 'topic_events' using Python. Message delivery confirmed after 10 retries.
+2025-01-27 03:53:00,,INFO,CPU usage is 20%. Threshold not exceeded. System operating normally.
+2025-01-27 04:01:00,,ERROR,Task 'task_api_sync' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Data validation error in step 2.
+2025-01-27 04:02:00,,ERROR,Disk usage is critically high: 45%. Threshold exceeded on volume /dev/sda1.
+2025-01-27 04:04:00,,INFO,Task 'task_api_sync' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.
+2025-01-27 04:14:00,,ERROR,Docker container failed to start for service Kafka. Error log: Container crashed on startup.
+2025-01-27 04:16:00,,INFO,Phone number 9988776655 was successfully added to the system.
+2025-01-27 04:26:00,,INFO,Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds.
+2025-01-27 05:00:00,,INFO,CPU usage is 27%. Threshold not exceeded. System operating normally.
+2025-01-27 05:10:00,,INFO,Task 'task_etl' in DAG 'dag_user_sync' completed successfully in 45 seconds.
+2025-01-27 05:14:00,,ERROR,Lambda function execution failed in AWS. Error: Invalid parameters provided.
+2025-01-27 05:16:00,,INFO,Lambda function executed successfully in AWS. Execution duration: 250ms.
+2025-01-27 05:25:00,,INFO,User john.doe@example.com logged in from IP 192.168.0.188. Login duration: 10 minutes.
+2025-01-27 05:29:00,,INFO,Lambda function executed successfully in AWS. Execution duration: 250ms.
+2025-01-27 05:34:00,,INFO,Phone number 9988776655 was successfully added to the system.
+2025-01-27 05:44:00,,INFO,Docker container started successfully for service Docker. Container ID: abcd1234efgh5678.
+2025-01-27 05:54:00,,INFO,Task 'task_data_validation' in DAG 'dag_model_training' completed successfully in 45 seconds.
+2025-01-27 06:02:00,,INFO,AWS operation completed successfully. Processed 1500 records in 2.35 seconds.
+2025-01-27 06:04:00,,INFO,Lambda function executed successfully in AWS. Execution duration: 250ms.
+2025-01-27 06:07:00,,ERROR,Failed to consume message from topic 'topic_events' using Kubernetes. Error: TimeoutException after 30 seconds.
+2025-01-27 06:16:00,,INFO,Kubernetes pod scaled up successfully. New replicas: 5.
+2025-01-27 06:18:00,,ERROR,Task 'task_model_training' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2.
+2025-01-27 06:22:00,,ERROR,Disk usage is critically high: 34%. Threshold exceeded on volume /dev/sda1.
+2025-01-27 06:27:00,,INFO,Disk usage is 35%. Disk space within acceptable limits.
+2025-01-27 06:34:00,,INFO,Published message to topic 'topic_events' using Java. Message delivery confirmed after 10 retries.
+2025-01-27 07:00:00,,INFO,Kubernetes pod scaled up successfully. New replicas: 5.
+2025-01-27 07:07:00,,ERROR,Task 'task_model_training' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2.
+2025-01-27 07:14:00,,INFO,Lambda function executed successfully in AWS. Execution duration: 250ms.
+2025-01-27 07:18:00,,INFO,Disk usage is 67%. Disk space within acceptable limits.
+2025-01-27 07:26:00,,INFO,User john.doe@example.com logged in from IP 192.168.0.170. Login duration: 10 minutes.
+2025-01-27 07:31:00,,INFO,Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.
+2025-01-27 07:41:00,,ERROR,Docker container failed to start for service Airflow. Error log: Container crashed on startup.
+2025-01-27 07:50:00,,INFO,CPU usage is 15%. Threshold not exceeded. System operating normally.
+2025-01-27 07:53:00,,ERROR,Kafka encountered an issue. Exception: NullPointerException in thread 'main'.
+2025-01-27 08:02:00,,ERROR,Docker encountered an issue. Exception: NullPointerException in thread 'main'.
+2025-01-27 08:12:00,,INFO,User alice.smith@test.com logged in from IP 192.168.0.135. Login duration: 10 minutes.
+2025-01-27 08:19:00,,INFO,Kubernetes pod scaled up successfully. New replicas: 5.
+2025-01-27 08:21:00,,INFO,Task 'task_data_validation' in DAG 'dag_user_sync' completed successfully in 45 seconds.
+2025-01-27 08:30:00,,ERROR,CPU usage is critically high: 57%. Immediate action required.
+2025-01-27 08:32:00,,INFO,Docker operation completed successfully. Processed 1500 records in 2.35 seconds.
+2025-01-27 08:36:00,,ERROR,Disk usage is critically high: 41%. Threshold exceeded on volume /dev/sda1.
+2025-01-27 08:38:00,,ERROR,CPU usage is critically high: 77%. Immediate action required.
+2025-01-27 09:00:00,,INFO,Lambda function executed successfully in AWS. Execution duration: 250ms.
+2025-01-27 09:04:00,,INFO,Task 'task_api_sync' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.
+2025-01-27 09:05:00,,INFO,Docker container started successfully for service Azure. Container ID: abcd1234efgh5678.
+2025-01-27 09:12:00,,ERROR,Lambda function execution failed in AWS. Error: Invalid parameters provided.
+2025-01-27 09:19:00,,ERROR,PATCH request to /api/v2/transactions failed. Response code: 500 Internal Server Error. Error details: Missing authentication token.
+2025-01-27 09:27:00,,INFO,Lambda function executed successfully in AWS. Execution duration: 250ms.
+2025-01-27 09:29:00,,INFO,CPU usage is 84%. Threshold not exceeded. System operating normally.
+2025-01-27 09:35:00,,INFO,Phone number 9876543210 was successfully added to the system.
+2025-01-27 09:38:00,,INFO,Lambda function executed successfully in AWS. Execution duration: 250ms.
+2025-01-27 09:44:00,,ERROR,Task 'task_api_sync' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2.
+2025-01-27 09:46:00,,ERROR,Phone number 9876543210 could not be added due to a duplicate record conflict in the database.
+2025-01-27 09:47:00,,INFO,Task 'task_model_training' in DAG 'dag_model_training' completed successfully in 45 seconds.
+2025-01-27 09:53:00,,INFO,Disk usage is 60%. Disk space within acceptable limits.
+2025-01-27 09:54:00,,ERROR,Kubernetes encountered an issue. Exception: NullPointerException in thread 'main'.
+2025-01-27 10:02:00,,ERROR,Task 'task_model_training' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Data validation error in step 2.
+2025-01-27 10:08:00,,INFO,Docker container started successfully for service AWS. Container ID: abcd1234efgh5678.
+2025-01-27 10:18:00,,INFO,Docker container started successfully for service Java. Container ID: abcd1234efgh5678.
+2025-01-27 11:00:00,,ERROR,Azure encountered an issue. Exception: NullPointerException in thread 'main'.
+2025-01-27 11:08:00,,INFO,Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds.
+2025-01-27 11:12:00,,INFO,Task 'task_api_sync' in DAG 'dag_model_training' completed successfully in 45 seconds.
+2025-01-27 11:22:00,,INFO,PUT request to /api/v1/users succeeded. Response code: 200 OK. Response size: 1.2MB.
+2025-01-27 11:28:00,,INFO,GET request to /api/v2/transactions succeeded. Response code: 200 OK. Response size: 1.2MB.
+2025-01-27 11:31:00,,INFO,PUT request to /api/v1/orders succeeded. Response code: 200 OK. Response size: 1.2MB.
+2025-01-27 11:39:00,,INFO,Disk usage is 35%. Disk space within acceptable limits.
+2025-01-27 11:43:00,,INFO,AWS operation completed successfully. Processed 1500 records in 2.35 seconds.
+2025-01-27 11:46:00,,INFO,User alice.smith@test.com logged in from IP 192.168.0.63. Login duration: 10 minutes.
+2025-01-27 11:52:00,,INFO,Phone number 9876543210 was successfully added to the system.
+2025-01-27 11:58:00,,INFO,Docker container started successfully for service Azure. Container ID: abcd1234efgh5678.
+2025-01-27 12:07:00,,INFO,Disk usage is 93%. Disk space within acceptable limits.
+2025-01-27 12:10:00,,INFO,Lambda function executed successfully in AWS. Execution duration: 250ms.
+2025-01-27 12:14:00,,ERROR,Failed to consume message from topic 'topic_transactions' using Azure. Error: TimeoutException after 30 seconds.
+2025-01-27 12:19:00,,INFO,User user123@domain.org logged in from IP 192.168.0.224. Login duration: 10 minutes.
+2025-01-27 12:24:00,,INFO,Lambda function executed successfully in AWS. Execution duration: 250ms.
+2025-01-27 12:31:00,,ERROR,Failed to consume message from topic 'topic_events' using Java. Error: TimeoutException after 30 seconds.
+2025-01-27 13:00:00,,INFO,Phone number 9876543210 was successfully added to the system.
+2025-01-27 13:09:00,,ERROR,CPU usage is critically high: 74%. Immediate action required.
+2025-01-27 13:17:00,,ERROR,Phone number 9876543210 could not be added due to a duplicate record conflict in the database.
+2025-01-27 13:18:00,,INFO,Java operation completed successfully. Processed 1500 records in 2.35 seconds.
+2025-01-27 13:27:00,,ERROR,Docker container failed to start for service Docker. Error log: Container crashed on startup.
+2025-01-27 13:28:00,,ERROR,Disk usage is critically high: 73%. Threshold exceeded on volume /dev/sda1.
+2025-01-27 13:29:00,,INFO,Docker container started successfully for service AWS. Container ID: abcd1234efgh5678.
+2025-01-27 13:31:00,,ERROR,DELETE request to /api/v2/transactions failed. Response code: 500 Internal Server Error. Error details: Missing authentication token.
+2025-01-27 13:36:00,,INFO,Lambda function executed successfully in AWS. Execution duration: 250ms.
+2025-01-27 13:42:00,,INFO,Lambda function executed successfully in AWS. Execution duration: 250ms.
+2025-01-27 13:46:00,,ERROR,Phone number 9123456789 could not be added due to a duplicate record conflict in the database.
+2025-01-27 13:56:00,,INFO,CPU usage is 61%. Threshold not exceeded. System operating normally.
+2025-01-27 14:03:00,,ERROR,CPU usage is critically high: 75%. Immediate action required.
+2025-01-27 14:13:00,,ERROR,Kubernetes pod crash detected. Pod ID: kube_pod12345.
+2025-01-27 14:17:00,,ERROR,Airflow encountered an issue. Exception: NullPointerException in thread 'main'.
+2025-01-27 14:27:00,,INFO,CPU usage is 14%. Threshold not exceeded. System operating normally.
+2025-01-27 14:30:00,,INFO,Phone number 9988776655 was successfully added to the system.
+2025-01-27 15:00:00,,ERROR,CPU usage is critically high: 86%. Immediate action required.
+2025-01-27 15:09:00,,ERROR,GET request to /api/v1/orders failed. Response code: 500 Internal Server Error. Error details: Missing authentication token.
+2025-01-27 15:13:00,,ERROR,Kafka encountered an issue. Exception: NullPointerException in thread 'main'.
+2025-01-27 15:20:00,,INFO,Kafka operation completed successfully. Processed 1500 records in 2.35 seconds.
+2025-01-27 15:25:00,,INFO,Task 'task_data_validation' in DAG 'dag_user_sync' completed successfully in 45 seconds.
+2025-01-27 15:29:00,,INFO,Kubernetes pod scaled up successfully. New replicas: 5.
+2025-01-27 15:30:00,,INFO,Kubernetes pod scaled up successfully. New replicas: 5.
+2025-01-27 15:39:00,,ERROR,CPU usage is critically high: 74%. Immediate action required.
+2025-01-27 15:49:00,,INFO,Java operation completed successfully. Processed 1500 records in 2.35 seconds.
+2025-01-27 15:59:00,,INFO,Disk usage is 72%. Disk space within acceptable limits.
+2025-01-27 16:02:00,,INFO,Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.
+2025-01-27 16:05:00,,INFO,PATCH request to /admin/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB.
+2025-01-27 16:07:00,,ERROR,Phone number 9123456789 could not be added due to a duplicate record conflict in the database.
+2025-01-27 16:17:00,,INFO,Kubernetes pod scaled up successfully. New replicas: 5.
+2025-01-27 16:27:00,,ERROR,PUT request to /api/v2/transactions failed. Response code: 500 Internal Server Error. Error details: Missing authentication token.
+2025-01-27 16:29:00,,INFO,Airflow operation completed successfully. Processed 1500 records in 2.35 seconds.
+2025-01-27 16:33:00,,ERROR,DELETE request to /admin/dashboard failed. Response code: 500 Internal Server Error. Error details: Missing authentication token.
+2025-01-27 17:00:00,,INFO,Java operation completed successfully. Processed 1500 records in 2.35 seconds.
+2025-01-27 17:09:00,,INFO,Docker container started successfully for service AWS. Container ID: abcd1234efgh5678.
+2025-01-27 17:19:00,,ERROR,Docker container failed to start for service Python. Error log: Container crashed on startup.
+2025-01-27 17:21:00,,INFO,POST request to /admin/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB.
+2025-01-27 17:29:00,,INFO,Lambda function executed successfully in AWS. Execution duration: 250ms.
+2025-01-27 17:35:00,,ERROR,CPU usage is critically high: 81%. Immediate action required.
+2025-01-27 17:40:00,,INFO,Disk usage is 88%. Disk space within acceptable limits.
+2025-01-27 17:45:00,,INFO,Kubernetes pod scaled up successfully. New replicas: 5.
+2025-01-27 17:49:00,,ERROR,Lambda function execution failed in AWS. Error: Invalid parameters provided.
+2025-01-27 17:57:00,,INFO,Lambda function executed successfully in AWS. Execution duration: 250ms.
+2025-01-27 18:06:00,,INFO,CPU usage is 31%. Threshold not exceeded. System operating normally.
+2025-01-27 18:12:00,,ERROR,Disk usage is critically high: 50%. Threshold exceeded on volume /dev/sda1.
+2025-01-27 18:22:00,,INFO,Docker container started successfully for service Java. Container ID: abcd1234efgh5678.
+2025-01-27 18:30:00,,INFO,Disk usage is 39%. Disk space within acceptable limits.
+2025-01-27 18:38:00,,INFO,Disk usage is 81%. Disk space within acceptable limits.
+2025-01-27 18:43:00,,INFO,Docker operation completed successfully. Processed 1500 records in 2.35 seconds.
+2025-01-27 18:50:00,,ERROR,CPU usage is critically high: 66%. Immediate action required.
