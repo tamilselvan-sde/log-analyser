@@ -84,7 +84,7 @@ if selected_page == "Troubleshooting":
         if st.button("🚀 Demo Run"):
             if api_key.strip():
                 for idx, message in enumerate(filtered_messages, start=1):
-                    st.subheader(f"Message {idx}:")
+                    st.subheader(f"Log - {idx}:")
                     st.write(f"**Error Log:** {message}")
 
                     try:
