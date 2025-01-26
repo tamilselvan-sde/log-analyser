@@ -4,6 +4,7 @@ import time
 import streamlit as st
 from PIL import Image
 from groq import Groq
+from config.paths import MainPath
 
 # Paths to folders
 folder_path = os.path.join(os.getcwd(), "model_outputs")
@@ -59,12 +60,6 @@ if selected_page == "Troubleshooting":
         st.error(f"Error loading sentiment analysis file: {e}")
         st.stop()
 
-    # Display all logs
-    st.subheader("All Logs")
-    for idx, log in enumerate(log_data, start=1):
-        st.markdown(f"**Log {idx}:**")
-        st.json(log)
-
     # Filter messages where Confidence >= 0.71
     filtered_messages = [
         log["message"]
@@ -73,10 +68,10 @@ if selected_page == "Troubleshooting":
     ]
 
     if not filtered_messages:
-        st.warning("No high-confidence messages found (Confidence >= 0.71).")
+        st.warning("No messages with Confidence >= 0.71 found.")
     else:
         st.markdown("### 🔍 High Confidence Messages Identified")
-        
+
         # Add a text input with the default token prefilled
         api_key = st.text_input(
             "Enter your Groq API Key:",
@@ -85,8 +80,8 @@ if selected_page == "Troubleshooting":
             help="If left unchanged, the default API key will be used.",
         )
 
-        # Add the "Run Solution" button
-        if st.button("🚀 Generate Solutions"):
+        # Add the "Demo Run" button
+        if st.button("🚀 Demo Run"):
             if api_key.strip():
                 for idx, message in enumerate(filtered_messages, start=1):
                     st.subheader(f"Message {idx}:")
