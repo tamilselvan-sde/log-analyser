@@ -7,7 +7,7 @@ from groq import Groq
 from config.paths import MainPath
 
 # Paths to folders
-folder_path = os.path.join(os.getcwd(), "model_outputs")
+#folder_path = os.path.join(os.getcwd(), "model_outputs")
 error_level_path = os.path.join(os.getcwd(), "log_analyser", "visualization", "error_level")
 keyword_clustering_path = os.path.join(os.getcwd(), "log_analyser", "visualization", "keyword_clustering")
 sentimental_analysis_path = os.path.join(os.getcwd(), "log_analyser", "visualization", "sentimental_analysis")
