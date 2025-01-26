@@ -7,7 +7,7 @@ from groq import Groq
 from config.paths import MainPath
 
 # Paths to folders
-#folder_path = os.path.join(os.getcwd(), "model_outputs")
+folder_path = os.path.join(os.getcwd(), "model_outputs")
 error_level_path = os.path.join(os.getcwd(), "log_analyser", "visualization", "error_level")
 keyword_clustering_path = os.path.join(os.getcwd(), "log_analyser", "visualization", "keyword_clustering")
 sentimental_analysis_path = os.path.join(os.getcwd(), "log_analyser", "visualization", "sentimental_analysis")
@@ -80,33 +80,35 @@ if selected_page == "Troubleshooting":
             help="If left unchanged, the default API key will be used.",
         )
 
-        if api_key.strip():
-            for idx, message in enumerate(filtered_messages, start=1):
-                st.subheader(f"Message {idx}:")
-                st.write(f"**Message:** {message}")
+        # Add the "Demo Run" button
+        if st.button("🚀 Demo Run"):
+            if api_key.strip():
+                for idx, message in enumerate(filtered_messages, start=1):
+                    st.subheader(f"Message {idx}:")
+                    st.write(f"**Message:** {message}")
 
-                try:
-                    # Add a 3-second delay between each request
-                    time.sleep(3)
+                    try:
+                        # Add a 3-second delay between each request
+                        time.sleep(3)
 
-                    # Use the troubleshoot_error function to get a solution
-                    with st.spinner("Getting solution from Groq..."):
-                        solution = troubleshoot_error(api_key, message)
+                        # Use the troubleshoot_error function to get a solution
+                        with st.spinner("Getting solution from Groq..."):
+                            solution = troubleshoot_error(api_key, message)
 
-                    # Display the model's response with colored background
-                    st.markdown(
-                        f"""
-                        <div style="background-color: #f0f0f5; padding: 10px; border-radius: 5px;">
-                            <strong>Solution:</strong> {solution}
-                        </div>
-                        """,
-                        unsafe_allow_html=True,
-                    )
-                except Exception as e:
-                    st.error(f"Error processing message: {e}")
+                        # Display the model's response with colored background
+                        st.markdown(
+                            f"""
+                            <div style="background-color: #f0f0f5; padding: 10px; border-radius: 5px;">
+                                <strong>Solution:</strong> {solution}
+                            </div>
+                            """,
+                            unsafe_allow_html=True,
+                        )
+                    except Exception as e:
+                        st.error(f"Error processing message: {e}")
 
-                # Add spacing between each message
-                st.markdown("<br>", unsafe_allow_html=True)
+                    # Add spacing between each message
+                    st.markdown("<br>", unsafe_allow_html=True)
 
 elif selected_page == "Plots and DataFrames":
     st.title("Log Analyzer Outputs Viewer")
