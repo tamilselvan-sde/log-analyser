@@ -7,7 +7,7 @@ from groq import Groq
 from config.paths import MainPath
 
 # Paths to folders
-folder_path = f"{MainPath.folder_path}/log_analyser/model_outputs"
+folder_path = "/model_outputs" #f"{MainPath.folder_path}/log_analyser/model_outputs"
 error_level_path = f"{MainPath.folder_path}/log_analyser/visualization/error_level"
 keyword_clustering_path = f"{MainPath.folder_path}/log_analyser/visualization/keyword_clustering"
 sentimental_analysis_path = f"{MainPath.folder_path}/log_analyser/visualization/sentimental_analysis"
