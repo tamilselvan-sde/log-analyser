@@ -8,9 +8,12 @@ from config.paths import MainPath
 
 # Paths to folders
 folder_path = os.path.join(os.getcwd(), "model_outputs")
-error_level_path = f"{MainPath.folder_path}/log_analyser/visualization/error_level"
-keyword_clustering_path = f"{MainPath.folder_path}/log_analyser/visualization/keyword_clustering"
-sentimental_analysis_path = f"{MainPath.folder_path}/log_analyser/visualization/sentimental_analysis"
+error_level_path = os.path.join(os.getcwd(), "log_analyser", "visualization", "error_level")
+keyword_clustering_path = os.path.join(os.getcwd(), "log_analyser", "visualization", "keyword_clustering")
+sentimental_analysis_path = os.path.join(os.getcwd(), "log_analyser", "visualization", "sentimental_analysis")
+
+# Default API Token
+DEFAULT_GROQ_API_KEY = "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"
 
 # Function to troubleshoot the error using Groq API
 def troubleshoot_error(api_key, error_message):
@@ -68,7 +71,15 @@ if selected_page == "Troubleshooting":
         st.warning("No messages with Confidence >= 0.71 found.")
     else:
         st.markdown("### 🔍 High Confidence Messages Identified")
-        api_key = st.text_input("Enter your Groq API Key:", type="password", placeholder="Paste your Groq API key here...")
+
+        # Add a text input with the default token prefilled
+        api_key = st.text_input(
+            "Enter your Groq API Key:",
+            value=DEFAULT_GROQ_API_KEY,
+            type="password",
+            help="If left unchanged, the default API key will be used.",
+        )
+
         if api_key.strip():
             for idx, message in enumerate(filtered_messages, start=1):
                 st.subheader(f"Message {idx}:")
@@ -96,17 +107,14 @@ if selected_page == "Troubleshooting":
 
                 # Add spacing between each message
                 st.markdown("<br>", unsafe_allow_html=True)
-        else:
-            st.error("Please provide your API key to troubleshoot errors.")
 
 elif selected_page == "Plots and DataFrames":
     st.title("Log Analyzer Outputs Viewer")
     st.markdown("---")  # Add a horizontal line for separation
 
     # List all files in the main data directory
-    files = os.listdir(folder_path)
-    json_files = [file for file in files if file.endswith(".json")]
-    csv_files = [file for file in files if file.endswith(".csv")]
+    json_files = [file for file in os.listdir(folder_path) if file.endswith(".json")]
+    csv_files = [file for file in os.listdir(folder_path) if file.endswith(".csv")]
 
     # List all PNGs in visualization folders
     error_images = [os.path.join(error_level_path, img) for img in os.listdir(error_level_path) if img.endswith(".png")]
