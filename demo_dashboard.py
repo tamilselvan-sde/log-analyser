@@ -85,7 +85,7 @@ if selected_page == "Troubleshooting":
             if api_key.strip():
                 for idx, message in enumerate(filtered_messages, start=1):
                     st.subheader(f"Message {idx}:")
-                    st.write(f"**Message:** {message}")
+                    st.write(f"**Error Log:** {message}")
 
                     try:
                         # Add a 3-second delay between each request
