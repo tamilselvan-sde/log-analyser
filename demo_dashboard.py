@@ -5,6 +5,8 @@ import streamlit as st
 from PIL import Image
 from groq import Groq
 from config.paths import MainPath
+import pandas as pd
+
 
 # Paths to folders
 folder_path = os.path.join(os.getcwd(), "model_outputs")
