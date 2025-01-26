@@ -9,7 +9,7 @@ class MainPath:
     """
 
     # Dynamically resolve the path to the "log_analyzer" folder in the Desktop directory
-    folder_path: str = os.path.join(os.path.expanduser("~"), "Desktop", "log_analyzer")
+    folder_path: str =  ""#os.path.join(os.path.expanduser("~"), "Desktop", "log_analyzer")
     cpu_threshold: int = 40  # CPU usage threshold in percentage
     disk_threshold: int = 40  # Disk usage threshold in percentage
     critical_threshold: int = 40  # Critical system threshold in percentage
