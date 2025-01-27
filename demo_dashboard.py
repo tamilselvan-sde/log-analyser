@@ -72,7 +72,7 @@ if selected_page == "Troubleshooting":
     if not filtered_messages:
         st.warning("No messages with Sentiment 'Negative' and Confidence >= 0.71 found.")
     else:
-        st.markdown("### 🔍 High Confidence Messages Identified")
+        st.markdown("### 🔍 Errored logs with solution steps")
 
         # Add a text input with the default token prefilled
         api_key = st.text_input(
