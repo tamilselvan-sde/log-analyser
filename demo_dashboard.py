@@ -8,7 +8,8 @@ from config.paths import MainPath
 import pandas as pd
 
 
-# Paths to folders
+
+# Paths to folder
 folder_path = os.path.join(os.getcwd(), "model_outputs")
 error_level_path = os.path.join(os.getcwd(),  "visualization", "error_level")
 keyword_clustering_path = os.path.join(os.getcwd(),  "visualization", "keyword_clustering")
