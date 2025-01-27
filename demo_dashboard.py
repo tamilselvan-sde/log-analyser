@@ -6,7 +6,6 @@ import streamlit as st
 from PIL import Image
 from datetime import datetime
 from time import sleep
-from dotenv import load_dotenv
 from logs_data.log_generator import LogGenerator
 from config.paths import MainPath
 from logs_preprocessor import LogParser
@@ -21,9 +20,6 @@ from model_components.HDBSCAN_Clustering import HDBSCANClustering
 from Plot_Analysis import LogLevelVisualizer, SentimentVisualizer, KeywordClusteringVisualizer
 from groq import Groq
 
-# Load environment variables
-load_dotenv()
-
 # Configure logging
 logging.basicConfig(
     filename="log_analyzer.log",
@@ -36,6 +32,9 @@ folder_path = f"{MainPath.folder_path}/log_analyser/model_outputs"
 error_level_path = f"{MainPath.folder_path}/log_analyser/visualization/error_level"
 keyword_clustering_path = f"{MainPath.folder_path}/log_analyser/visualization/keyword_clustering"
 sentimental_analysis_path = f"{MainPath.folder_path}/log_analyser/visualization/sentimental_analysis"
+
+# Default API Key
+DEFAULT_GROQ_API_KEY = "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"
 
 # Function to save DataFrame output
 
@@ -64,9 +63,9 @@ def save_json_output(data: dict | str, output_path: str, filename: str) -> None:
 
 # Groq Error Troubleshooting
 
-def troubleshoot_error(api_key: str, error_message: str):
+def troubleshoot_error(error_message: str):
     try:
-        client = Groq(api_key=api_key)
+        client = Groq(api_key=DEFAULT_GROQ_API_KEY)
         completion = client.chat.completions.create(
             model="llama-3.3-70b-versatile",
             messages=[
@@ -110,33 +109,29 @@ def streamlit_dashboard():
 
         filtered_messages = sentiment_df[
             (sentiment_df["Sentiment"] == "Negative") & (sentiment_df["Confidence"] > 0.71)
-        ]["message"]
+        ]
 
         if filtered_messages.empty:
             st.warning("No negative sentiment messages with confidence greater than 0.71 found.")
         else:
-            api_key = st.text_input("Enter your Groq API Key:", type="password")
             if st.button("🚀 Analyze Errors"):
-                if not api_key:
-                    st.error("Please provide your Groq API Key.")
-                else:
-                    for idx, message in enumerate(filtered_messages, start=1):
-                        st.subheader(f"Error {idx}:")
-                        st.write(f"**Error Message:** {message}")
+                for idx, message in enumerate(filtered_messages["message"], start=1):
+                    st.subheader(f"Error {idx}:")
+                    st.write(f"**Error Message:** {message}")
 
-                        try:
-                            solution = troubleshoot_error(api_key, message)
-                            sleep(3)  # Add 3-second delay between API calls
-                            st.markdown(
-                                f"""
-                                <div style="background-color: #f0f0f5; padding: 10px; border-radius: 5px;">
-                                    <strong>Solution:</strong> {solution}
-                                </div>
-                                """,
-                                unsafe_allow_html=True,
-                            )
-                        except Exception as e:
-                            st.error(f"Error processing message: {e}")
+                    try:
+                        solution = troubleshoot_error(message)
+                        sleep(3)  # Add 3-second delay between API calls
+                        st.markdown(
+                            f"""
+                            <div style="background-color: #f0f0f5; padding: 10px; border-radius: 5px;">
+                                <strong>Solution:</strong> {solution}
+                            </div>
+                            """,
+                            unsafe_allow_html=True,
+                        )
+                    except Exception as e:
+                        st.error(f"Error processing message: {e}")
 
     elif selected_page == "Plots and DataFrames":
         st.title("Log Analyzer Outputs Viewer")
