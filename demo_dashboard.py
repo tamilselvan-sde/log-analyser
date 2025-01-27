@@ -62,15 +62,15 @@ if selected_page == "Troubleshooting":
         st.error(f"Error loading sentiment analysis file: {e}")
         st.stop()
 
-    # Filter messages where Confidence >= 0.71
+    # Filter messages where Confidence >= 0.71 and Sentiment == "Negative"
     filtered_messages = [
         log["message"]
         for log in log_data
-        if log.get("Confidence", 0) >= 0.71
+        if log.get("Sentiment") == "Negative" and log.get("Confidence", 0) >= 0.71
     ]
 
     if not filtered_messages:
-        st.warning("No messages with Confidence >= 0.71 found.")
+        st.warning("No messages with Sentiment 'Negative' and Confidence >= 0.71 found.")
     else:
         st.markdown("### 🔍 High Confidence Messages Identified")
 
