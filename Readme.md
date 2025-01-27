@@ -7,7 +7,7 @@ Based on the available information from the repository [tamilselvan-sde/log-anal
 
 Log Analyser is a Python-based tool designed to process and analyze log files. It provides functionalities for preprocessing logs, performing sentiment analysis, and visualizing the results to help users gain insights from their log data.
 
-## Table of Contents
+## Table of Content
 
 - [Introduction](#introduction)
 - [Features](#features)
